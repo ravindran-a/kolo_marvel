@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46615C90193E86361D5E6009 /* Pods_KoloMarvelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFABC597ADF62A5E44B52B12 /* Pods_KoloMarvelUITests.framework */; };
+		A47FC5C9FAA124B018A6AB44 /* Pods_KoloMarvelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A2F01F607598F2E242006C /* Pods_KoloMarvelTests.framework */; };
+		CB5BBCE5EB761D9915DADCA4 /* Pods_KoloMarvel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02CB219C59A0A93D0B35582 /* Pods_KoloMarvel.framework */; };
+		DE79F5AC280D66FD00B29F2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79F5AB280D66FD00B29F2A /* AppDelegate.swift */; };
+		DE79F5AE280D66FD00B29F2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79F5AD280D66FD00B29F2A /* SceneDelegate.swift */; };
+		DE79F5B0280D66FD00B29F2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79F5AF280D66FD00B29F2A /* ViewController.swift */; };
+		DE79F5B3280D66FD00B29F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE79F5B1280D66FD00B29F2A /* Main.storyboard */; };
+		DE79F5B5280D66FF00B29F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE79F5B4280D66FF00B29F2A /* Assets.xcassets */; };
+		DE79F5B8280D66FF00B29F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE79F5B6280D66FF00B29F2A /* LaunchScreen.storyboard */; };
+		DE79F5C3280D66FF00B29F2A /* KoloMarvelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79F5C2280D66FF00B29F2A /* KoloMarvelTests.swift */; };
+		DE79F5CD280D66FF00B29F2A /* KoloMarvelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79F5CC280D66FF00B29F2A /* KoloMarvelUITests.swift */; };
+		DE79F5CF280D66FF00B29F2A /* KoloMarvelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79F5CE280D66FF00B29F2A /* KoloMarvelUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE79F5BF280D66FF00B29F2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE79F5A0280D66FD00B29F2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE79F5A7280D66FD00B29F2A;
+			remoteInfo = KoloMarvel;
+		};
+		DE79F5C9280D66FF00B29F2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE79F5A0280D66FD00B29F2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE79F5A7280D66FD00B29F2A;
+			remoteInfo = KoloMarvel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E4831925BA254E3777690E5 /* Pods-KoloMarvelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoloMarvelUITests.release.xcconfig"; path = "Target Support Files/Pods-KoloMarvelUITests/Pods-KoloMarvelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3551A7911BA69C3CEABE6B90 /* Pods-KoloMarvelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoloMarvelUITests.debug.xcconfig"; path = "Target Support Files/Pods-KoloMarvelUITests/Pods-KoloMarvelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		75A2F01F607598F2E242006C /* Pods_KoloMarvelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoloMarvelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		961933358B9A4E577170D113 /* Pods-KoloMarvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoloMarvel.release.xcconfig"; path = "Target Support Files/Pods-KoloMarvel/Pods-KoloMarvel.release.xcconfig"; sourceTree = "<group>"; };
+		9BEB59F4BFE451ABB44AC19F /* Pods-KoloMarvelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoloMarvelTests.debug.xcconfig"; path = "Target Support Files/Pods-KoloMarvelTests/Pods-KoloMarvelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B02CB219C59A0A93D0B35582 /* Pods_KoloMarvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoloMarvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE79F5A8280D66FD00B29F2A /* KoloMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoloMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE79F5AB280D66FD00B29F2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE79F5AD280D66FD00B29F2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE79F5AF280D66FD00B29F2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE79F5B2280D66FD00B29F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE79F5B4280D66FF00B29F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE79F5B7280D66FF00B29F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE79F5B9280D66FF00B29F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE79F5BE280D66FF00B29F2A /* KoloMarvelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoloMarvelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE79F5C2280D66FF00B29F2A /* KoloMarvelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoloMarvelTests.swift; sourceTree = "<group>"; };
+		DE79F5C8280D66FF00B29F2A /* KoloMarvelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoloMarvelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE79F5CC280D66FF00B29F2A /* KoloMarvelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoloMarvelUITests.swift; sourceTree = "<group>"; };
+		DE79F5CE280D66FF00B29F2A /* KoloMarvelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoloMarvelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DFABC597ADF62A5E44B52B12 /* Pods_KoloMarvelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoloMarvelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EE7360248653BEAE214C77 /* Pods-KoloMarvelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoloMarvelTests.release.xcconfig"; path = "Target Support Files/Pods-KoloMarvelTests/Pods-KoloMarvelTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3151F31F7157516585323A5 /* Pods-KoloMarvel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoloMarvel.debug.xcconfig"; path = "Target Support Files/Pods-KoloMarvel/Pods-KoloMarvel.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE79F5A5280D66FD00B29F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5BBCE5EB761D9915DADCA4 /* Pods_KoloMarvel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE79F5BB280D66FF00B29F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47FC5C9FAA124B018A6AB44 /* Pods_KoloMarvelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE79F5C5280D66FF00B29F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46615C90193E86361D5E6009 /* Pods_KoloMarvelUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		695D414B4F4690F1A989ED10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3151F31F7157516585323A5 /* Pods-KoloMarvel.debug.xcconfig */,
+				961933358B9A4E577170D113 /* Pods-KoloMarvel.release.xcconfig */,
+				9BEB59F4BFE451ABB44AC19F /* Pods-KoloMarvelTests.debug.xcconfig */,
+				E0EE7360248653BEAE214C77 /* Pods-KoloMarvelTests.release.xcconfig */,
+				3551A7911BA69C3CEABE6B90 /* Pods-KoloMarvelUITests.debug.xcconfig */,
+				0E4831925BA254E3777690E5 /* Pods-KoloMarvelUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		D60A9C5D5C5395DC355E3BFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B02CB219C59A0A93D0B35582 /* Pods_KoloMarvel.framework */,
+				75A2F01F607598F2E242006C /* Pods_KoloMarvelTests.framework */,
+				DFABC597ADF62A5E44B52B12 /* Pods_KoloMarvelUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE79F59F280D66FD00B29F2A = {
+			isa = PBXGroup;
+			children = (
+				DE79F5AA280D66FD00B29F2A /* KoloMarvel */,
+				DE79F5C1280D66FF00B29F2A /* KoloMarvelTests */,
+				DE79F5CB280D66FF00B29F2A /* KoloMarvelUITests */,
+				DE79F5A9280D66FD00B29F2A /* Products */,
+				695D414B4F4690F1A989ED10 /* Pods */,
+				D60A9C5D5C5395DC355E3BFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE79F5A9280D66FD00B29F2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE79F5A8280D66FD00B29F2A /* KoloMarvel.app */,
+				DE79F5BE280D66FF00B29F2A /* KoloMarvelTests.xctest */,
+				DE79F5C8280D66FF00B29F2A /* KoloMarvelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE79F5AA280D66FD00B29F2A /* KoloMarvel */ = {
+			isa = PBXGroup;
+			children = (
+				DE79F5AB280D66FD00B29F2A /* AppDelegate.swift */,
+				DE79F5AD280D66FD00B29F2A /* SceneDelegate.swift */,
+				DE79F5AF280D66FD00B29F2A /* ViewController.swift */,
+				DE79F5B1280D66FD00B29F2A /* Main.storyboard */,
+				DE79F5B4280D66FF00B29F2A /* Assets.xcassets */,
+				DE79F5B6280D66FF00B29F2A /* LaunchScreen.storyboard */,
+				DE79F5B9280D66FF00B29F2A /* Info.plist */,
+			);
+			path = KoloMarvel;
+			sourceTree = "<group>";
+		};
+		DE79F5C1280D66FF00B29F2A /* KoloMarvelTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE79F5C2280D66FF00B29F2A /* KoloMarvelTests.swift */,
+			);
+			path = KoloMarvelTests;
+			sourceTree = "<group>";
+		};
+		DE79F5CB280D66FF00B29F2A /* KoloMarvelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE79F5CC280D66FF00B29F2A /* KoloMarvelUITests.swift */,
+				DE79F5CE280D66FF00B29F2A /* KoloMarvelUITestsLaunchTests.swift */,
+			);
+			path = KoloMarvelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE79F5A7280D66FD00B29F2A /* KoloMarvel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE79F5D2280D66FF00B29F2A /* Build configuration list for PBXNativeTarget "KoloMarvel" */;
+			buildPhases = (
+				055453CF254871454CA3485D /* [CP] Check Pods Manifest.lock */,
+				DE79F5A4280D66FD00B29F2A /* Sources */,
+				DE79F5A5280D66FD00B29F2A /* Frameworks */,
+				DE79F5A6280D66FD00B29F2A /* Resources */,
+				05CDBDA1B7CCF6B4BF77969D /* [CP] Embed Pods Frameworks */,
+				DE79F5DB280D68ED00B29F2A /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KoloMarvel;
+			productName = KoloMarvel;
+			productReference = DE79F5A8280D66FD00B29F2A /* KoloMarvel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE79F5BD280D66FF00B29F2A /* KoloMarvelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE79F5D5280D66FF00B29F2A /* Build configuration list for PBXNativeTarget "KoloMarvelTests" */;
+			buildPhases = (
+				BCF105D87135E401C6FA3241 /* [CP] Check Pods Manifest.lock */,
+				DE79F5BA280D66FF00B29F2A /* Sources */,
+				DE79F5BB280D66FF00B29F2A /* Frameworks */,
+				DE79F5BC280D66FF00B29F2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE79F5C0280D66FF00B29F2A /* PBXTargetDependency */,
+			);
+			name = KoloMarvelTests;
+			productName = KoloMarvelTests;
+			productReference = DE79F5BE280D66FF00B29F2A /* KoloMarvelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE79F5C7280D66FF00B29F2A /* KoloMarvelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE79F5D8280D66FF00B29F2A /* Build configuration list for PBXNativeTarget "KoloMarvelUITests" */;
+			buildPhases = (
+				B28A269534EA6C0144DFF411 /* [CP] Check Pods Manifest.lock */,
+				DE79F5C4280D66FF00B29F2A /* Sources */,
+				DE79F5C5280D66FF00B29F2A /* Frameworks */,
+				DE79F5C6280D66FF00B29F2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE79F5CA280D66FF00B29F2A /* PBXTargetDependency */,
+			);
+			name = KoloMarvelUITests;
+			productName = KoloMarvelUITests;
+			productReference = DE79F5C8280D66FF00B29F2A /* KoloMarvelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE79F5A0280D66FD00B29F2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DE79F5A7280D66FD00B29F2A = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					DE79F5BD280D66FF00B29F2A = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = DE79F5A7280D66FD00B29F2A;
+					};
+					DE79F5C7280D66FF00B29F2A = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = DE79F5A7280D66FD00B29F2A;
+					};
+				};
+			};
+			buildConfigurationList = DE79F5A3280D66FD00B29F2A /* Build configuration list for PBXProject "KoloMarvel" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE79F59F280D66FD00B29F2A;
+			productRefGroup = DE79F5A9280D66FD00B29F2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE79F5A7280D66FD00B29F2A /* KoloMarvel */,
+				DE79F5BD280D66FF00B29F2A /* KoloMarvelTests */,
+				DE79F5C7280D66FF00B29F2A /* KoloMarvelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE79F5A6280D66FD00B29F2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE79F5B8280D66FF00B29F2A /* LaunchScreen.storyboard in Resources */,
+				DE79F5B5280D66FF00B29F2A /* Assets.xcassets in Resources */,
+				DE79F5B3280D66FD00B29F2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE79F5BC280D66FF00B29F2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE79F5C6280D66FF00B29F2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		055453CF254871454CA3485D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoloMarvel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		05CDBDA1B7CCF6B4BF77969D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoloMarvel/Pods-KoloMarvel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoloMarvel/Pods-KoloMarvel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KoloMarvel/Pods-KoloMarvel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B28A269534EA6C0144DFF411 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoloMarvelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCF105D87135E401C6FA3241 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoloMarvelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE79F5DB280D68ED00B29F2A /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/SwiftLint/swiftlint --config ${PODS_ROOT}/../.swiftlint.yml\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE79F5A4280D66FD00B29F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE79F5B0280D66FD00B29F2A /* ViewController.swift in Sources */,
+				DE79F5AC280D66FD00B29F2A /* AppDelegate.swift in Sources */,
+				DE79F5AE280D66FD00B29F2A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE79F5BA280D66FF00B29F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE79F5C3280D66FF00B29F2A /* KoloMarvelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE79F5C4280D66FF00B29F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE79F5CF280D66FF00B29F2A /* KoloMarvelUITestsLaunchTests.swift in Sources */,
+				DE79F5CD280D66FF00B29F2A /* KoloMarvelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE79F5C0280D66FF00B29F2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE79F5A7280D66FD00B29F2A /* KoloMarvel */;
+			targetProxy = DE79F5BF280D66FF00B29F2A /* PBXContainerItemProxy */;
+		};
+		DE79F5CA280D66FF00B29F2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE79F5A7280D66FD00B29F2A /* KoloMarvel */;
+			targetProxy = DE79F5C9280D66FF00B29F2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE79F5B1280D66FD00B29F2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE79F5B2280D66FD00B29F2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE79F5B6280D66FF00B29F2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE79F5B7280D66FF00B29F2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE79F5D0280D66FF00B29F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE79F5D1280D66FF00B29F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE79F5D3280D66FF00B29F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3151F31F7157516585323A5 /* Pods-KoloMarvel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KoloMarvel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KoloMarvel;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.KoloMarvel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DE79F5D4280D66FF00B29F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961933358B9A4E577170D113 /* Pods-KoloMarvel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KoloMarvel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KoloMarvel;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.KoloMarvel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DE79F5D6280D66FF00B29F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BEB59F4BFE451ABB44AC19F /* Pods-KoloMarvelTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.KoloMarvelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KoloMarvel.app/KoloMarvel";
+			};
+			name = Debug;
+		};
+		DE79F5D7280D66FF00B29F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0EE7360248653BEAE214C77 /* Pods-KoloMarvelTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.KoloMarvelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KoloMarvel.app/KoloMarvel";
+			};
+			name = Release;
+		};
+		DE79F5D9280D66FF00B29F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3551A7911BA69C3CEABE6B90 /* Pods-KoloMarvelUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.KoloMarvelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KoloMarvel;
+			};
+			name = Debug;
+		};
+		DE79F5DA280D66FF00B29F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4831925BA254E3777690E5 /* Pods-KoloMarvelUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8Q8U8SHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.personal.KoloMarvelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KoloMarvel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE79F5A3280D66FD00B29F2A /* Build configuration list for PBXProject "KoloMarvel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE79F5D0280D66FF00B29F2A /* Debug */,
+				DE79F5D1280D66FF00B29F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE79F5D2280D66FF00B29F2A /* Build configuration list for PBXNativeTarget "KoloMarvel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE79F5D3280D66FF00B29F2A /* Debug */,
+				DE79F5D4280D66FF00B29F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE79F5D5280D66FF00B29F2A /* Build configuration list for PBXNativeTarget "KoloMarvelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE79F5D6280D66FF00B29F2A /* Debug */,
+				DE79F5D7280D66FF00B29F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE79F5D8280D66FF00B29F2A /* Build configuration list for PBXNativeTarget "KoloMarvelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE79F5D9280D66FF00B29F2A /* Debug */,
+				DE79F5DA280D66FF00B29F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE79F5A0280D66FD00B29F2A /* Project object */;
+}
