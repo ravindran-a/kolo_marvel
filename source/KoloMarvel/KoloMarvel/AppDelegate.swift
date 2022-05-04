@@ -30,6 +30,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-
-//3d0c85a97c3960e7a7facbe7ba361dd2
-//292c5c5db90fd7e43ded7d460855af5a31c86f29

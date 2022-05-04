@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Comics View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="ComicsViewController" id="Y6W-OH-hqX" customClass="ComicsViewController" customModule="KoloMarvel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" alwaysBounceVertical="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jYt-cw-yVL">
+                                <rect key="frame" x="0.0" y="104" width="414" height="758"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="DwD-P9-90h">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="e36-d8-JVx"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="axx-i6-4q4"/>
+                                </connections>
+                            </collectionView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="NOM-sd-ScX">
+                                <rect key="frame" x="0.0" y="44" width="414" height="60"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ai1-ph-R6T"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4Pq-sS-GgJ">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="vJC-RA-Qd2"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="KFB-cn-aIY"/>
+                                </connections>
+                            </collectionView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="qAg-si-cTY">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jYt-cw-yVL" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="3hh-sS-F8n"/>
+                            <constraint firstItem="NOM-sd-ScX" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="RVn-ts-SRq"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="NOM-sd-ScX" secondAttribute="trailing" id="TXO-GY-aJM"/>
+                            <constraint firstItem="qAg-si-cTY" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="fPm-6f-Ktw"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="jYt-cw-yVL" secondAttribute="bottom" id="iMI-pQ-rE9"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="jYt-cw-yVL" secondAttribute="trailing" id="ihZ-9z-nsm"/>
+                            <constraint firstItem="jYt-cw-yVL" firstAttribute="top" secondItem="NOM-sd-ScX" secondAttribute="bottom" id="mCK-H6-hh3"/>
+                            <constraint firstItem="qAg-si-cTY" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="vhr-Dw-mfa"/>
+                            <constraint firstItem="NOM-sd-ScX" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="wRp-sj-4mV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xku-dg-ODI"/>
+                    <connections>
+                        <outlet property="comicsGrid" destination="jYt-cw-yVL" id="Dzg-2H-xpA"/>
+                        <outlet property="filterGrid" destination="NOM-sd-ScX" id="sZP-wG-tve"/>
+                        <outlet property="spinner" destination="qAg-si-cTY" id="UaI-u2-vnK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="497" y="66"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
